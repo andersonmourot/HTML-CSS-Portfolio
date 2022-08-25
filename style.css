@@ -1,7 +1,9 @@
+/*Universal font for the site*/
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular','Lucida Sans Unicode', sans-serif;
 }
 
+/*Formatting for different header elements*/
 .header {
     padding: 25px;
     background-color: #E07A5F;
@@ -20,6 +22,7 @@
     font-size: 20px;
 }
 
+/*Formatting for the links in the header*/
 .header div ul {
     list-style-type: none;
 }
@@ -35,13 +38,66 @@ a {
 
 h2 {
     text-align: center;
+    font-size: 150%;
+    margin-top: 25px;
 }
 
+p {
+    text-align: center;
+}
+
+/*Formatting for the main bulk of text*/
 .content {
     background-color: #3D405B;
     color: white;
 }
 
-p {
+.about-me {
     text-align: center;
+    border: #E07A5F;
+    border-style: solid;
+}
+
+/*Sizing for the profile picture*/
+.left {
+    width: 5%;
+    border-radius: 200px;
+    margin-right: 20px;
+}
+
+/*Sizing and placement for the main my work link*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.contact-me {
+    font-size: 150%;
+    font-weight: 500;
+    margin: 25px;
+}
+
+.coming-soon {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 35%;
+    border-radius: 20px;
+}
+
+/*Formatting to adjust screen sizes*/
+@media screen and (max-width: 992px){
+    
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 576px){
+    
 }
