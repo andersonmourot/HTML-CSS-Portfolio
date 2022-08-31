@@ -3,6 +3,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular','Lucida Sans Unicode', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*Formatting for different header elements*/
 .header {
     padding: 25px;
@@ -81,20 +85,24 @@ p {
     margin: 25px;
 }
 
-.coming-soon {
-    float: right;
-  width: 30%;
+.card {
   text-align: center;
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
   border: thin silver solid;
-  margin: 0.5em;
-  padding: 0.5em;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-figcaption {
-    caption-side: bottom;
+.card h2 {
+    font-size: 20px;
+}
+
+.card img {
+    width: 100%;
 }
 
 .future-projects {
@@ -105,14 +113,14 @@ figcaption {
 
 /*Formatting to adjust screen sizes*/
 @media screen and (min-width: 768px) {
-.coming-soon {
+.card {
     width: 35%;
     margin: 15px;
 }   
 }
 
 @media screen and (min-width: 992px) {
-    .coming-soon {
+    .card {
         margin-left: 20px;
         margin-right: 20px;
         width: 10%;
