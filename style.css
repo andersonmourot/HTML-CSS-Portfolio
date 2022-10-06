@@ -10,7 +10,7 @@ html {
 /*Formatting for different header elements*/
 .header {
     padding: 25px;
-    background-color: #E07A5F;
+    background-color: rgb(3, 79, 3);
     color: white;
 }
 
@@ -58,7 +58,7 @@ p {
 
 .about-me {
     text-align: center;
-    border: #E07A5F;
+    border: white;
     border-style: solid;
     border-width: 10px;
 }
